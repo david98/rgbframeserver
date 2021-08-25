@@ -1,0 +1,14 @@
+users = [
+    {
+        "username": "davide",
+        "devices": [{"name": "frame1", "room": "test", "clientID": "esp32"}],
+        "password": "password_hash",  # can be computed with mosquitto_passwd
+    },
+    {
+        "username": "marco",
+        "devices": [],
+        "password": "password_hash",
+    },
+]
+
+firmware_version = "0.2"
